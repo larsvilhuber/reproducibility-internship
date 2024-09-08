@@ -22,5 +22,6 @@ source(here::here("libraries.R"))
 
 #run render
 
-rmarkdown::render("index.Rmd")
+#rmarkdown::render("index.Rmd")
+quarto_render("index.qmd")
 

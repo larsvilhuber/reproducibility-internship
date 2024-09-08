@@ -39,7 +39,7 @@ if (get_os()=="linux") {
   options(repos=paste0("https://packagemanager.posit.co/cran/",mran.date))
 }
 
-global.libraries <- c("dplyr","rprojroot","tictoc","ggplot2","readr","revealjs","rmarkdown")
+global.libraries <- c("dplyr","rprojroot","tictoc","ggplot2","readr","revealjs","rmarkdown","quarto")
 
 # now install the rest
 results <- sapply(as.list(global.libraries), pkgTest)

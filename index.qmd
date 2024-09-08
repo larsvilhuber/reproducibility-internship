@@ -1,0 +1,173 @@
+---
+title: "Reproducibility Interships: Goals and Outcomes"
+author: 
+  - "Lars Vilhuber"
+date: September 2024
+bibliography: ["references.bib","references-zotero.bib"]
+
+---
+
+
+**Richard Ball** asked the (rhetorical) question "Is it feasible to include reproducible research methods in undergraduate training?"  [@ballYesWeCan2023], answering that question with **"Yes we can!"**. 
+
+---
+
+I will go beyond that, and argue **"Yes we should!"**
+
+# Why?
+
+---
+
+- As of August 2024, the LDI Replication Lab has verified **around 2500** distinct AEA journal manuscripts as to their computational reproducibility. [@10.1257/pandp.114.878]
+- Since 2014 (starting before the official AEA work), **more than 200 undergraduates** have been trained, and have helped in the assessment.
+- The training is **not part of a regular** (Cornell) **curriculum**.
+
+## What is a replication package?
+
+- [AEA Data and Code Availability policy](https://www.aeaweb.org/journals/data/data-code-policy)
+- [Data and Code Availability Standard](https://datacodestandard.org/) ![](https://datacodestandard.org/assets/img/DCAS-1.0.png) 
+- [AEA Data and Code Repository](https://www.openicpsr.org/openicpsr/search/aea/studies)
+
+---
+
+![](images/aea-repo-example.png)
+
+---
+
+![](images/aea-dcap-top.png)
+
+# Student involvement
+
+## What do the students do?
+
+- Analyze **data provenance** as described by authors
+- Verify **ability to computationally reproduce** results
+- **Attempt reproduction** as per instructions (README)
+- Inevitably **debug**
+- Write a **shareable report**
+
+
+## How are the students trained?
+
+::: {.multicolumn}
+:::: {.col}
+
+
+- Intense 1-day training on principles and technology
+- Loose follow-up on three examples
+- Then **real** cases.
+
+
+
+::::
+:::: {.col}
+
+![](images/replicability-agenda.png)
+
+[@vilhuberTeachingLargescaleReproducibility2022]
+
+
+::::
+:::
+
+## What are students trained on?
+
+- Technological reasons (use of specific workflow management system, other tools)
+- Versioning: All **reproducibility checks** are versioned (git crucial)
+- Running code (R, Stata, Python, Julia, Matlab, SAS, ...)
+
+## Communication
+
+- Debugging: There is always some ... and reproducibly debugging is important (**internal communication**)
+- Writing reports: **external communication** to authors, conveying what was done, and what may have gone wrong (constructive and objective criticism)
+
+## Organization
+
+- Organizing their work within the Lab
+- Structuring reports and other documents
+
+# Is this useful?
+
+## Students think so
+
+## *2020 sociology graduate working for a nonprofit research organization*
+
+> "[I received] overwhelmingly positive feedback on my documentation method in code reviews, which is all thanks to my time with LDI"
+
+
+## *2021 Economics graduate, currently pursuing a Ph.D. in Political Economics*
+
+> "... I feel like [LDI Replicator position] was the single most important thing ... to prepare myself to succeed in [predoctoral fellowship]...."
+
+
+## *2024 Economics intern*
+
+>  For every issue I did solve, there was a gratifying moment, knowing I’ve explored something new and that the authors would read and heed my documented solution. It’s always a huge confidence boost whenever I take the initiative to research and dabble with problems I might not be able to solve.
+
+# Summer internship at AEA
+
+## Participants
+
+- Initiated by Cornell University (Vilhuber)
+- 5 partner institutions (**Wellesley, Haverford, Bryn Mawr, Notre Dame, U Colorado at Boulder**, UNC Chapel Hill$^*$), each with a local coordinator
+- 9 students selected in total 
+
+## Timeline
+
+- Training in April (to skirt finals)
+- Start after finals (May 20 - June 1, depending)
+- 12 weeks core participation
+
+## Structure
+
+- **12-16 weeks** of participation
+- Funded by journal for real work (real articles, real reports)
+- Partially supported by various host institutions 
+
+## Student contributions
+
+- Part of regular team (others were continuing Cornell students)
+- **12-16 "cases"** (~ 1/week)
+- A small number of revisions (same article, improved replication package)
+
+## Student learning
+
+- Successful debugging (with assistance when needed)
+- Structured internal reporting (how to convey what you did that did not work)
+- Writing reports
+
+## Student learning (technical)
+
+- Use of remote Windows and in some cases Linux servers
+- Basic use of multiple software not previously used
+- Repeated use of modern software development tools: Git, Markdown, automation 
+
+# Student experiences and reproducibility services
+
+- **Journals** are organizationally distinct from universities (mostly)
+- Most **curricula** currently do not include the methods and tools necessary for reproducible work 
+- Most research institutions to not provide **reproducibility services** to their researchers
+
+## Timing of publication
+
+- In the context of the AEA journals, students provided feedback prior to (first) publication
+- World Bank, some research institutes are providing service to their staff / members with public artifacts (early institute-level publication)[^institutes]
+- **i4R** is providing more in-depth feedback post-publication
+
+[^institutes]: @butlerPublishingReplicationPackages2023 , @peerWhyHowWe2024 
+
+## **Yes we should**
+
+- Include training on reproducible practices in undergraduate curricula (junior / penultimate year) [^alsomendez]
+- Training should include practice on pre-publication (own faculty) and post-publication (journal publications)
+- May involve structured reporting (**Social Science Reproduction Platform**)
+
+[^alsomendez]: See also @mendez-carbajoDataCitationsReproducibility2023
+
+# Thank you.
+
+---
+
+## References
+
+
