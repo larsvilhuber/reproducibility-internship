@@ -2,7 +2,7 @@
 title: "Reproducibility Interships: Goals and Outcomes"
 author: 
   - "Lars Vilhuber"
-date: September 2024
+date: 7 October 2024
 bibliography: ["references.bib","references-zotero.bib"]
 
 ---
@@ -16,13 +16,20 @@ I will go beyond that, and argue **"Yes we should!"**
 
 # Why?
 
----
 
-- As of August 2024, the LDI Replication Lab has verified **around 2500** distinct AEA journal manuscripts as to their computational reproducibility. [@10.1257/pandp.114.878]
+## There is a lot of opportunity
+
+- As of September 2024, the LDI Replication Lab has verified **around 2500** distinct AEA journal manuscripts as to their computational reproducibility. [@10.1257/pandp.114.878]
+
+## This is being done...
+
 - Since 2014 (starting before the official AEA work), **more than 200 undergraduates** have been trained, and have helped in the assessment.
+
+## ... But not in the classroom (mostly)
+
 - The training is **not part of a regular** (Cornell) **curriculum**.
 
-## What is a replication package?
+# What is a replication package?
 
 - [AEA Data and Code Availability policy](https://www.aeaweb.org/journals/data/data-code-policy)
 - [Data and Code Availability Standard](https://datacodestandard.org/) ![](https://datacodestandard.org/assets/img/DCAS-1.0.png) 
@@ -104,7 +111,7 @@ I will go beyond that, and argue **"Yes we should!"**
 
 >  For every issue I did solve, there was a gratifying moment, knowing I’ve explored something new and that the authors would read and heed my documented solution. It’s always a huge confidence boost whenever I take the initiative to research and dabble with problems I might not be able to solve.
 
-# Summer internship at AEA
+# Summer 2024 internship at AEA
 
 ## Participants
 
@@ -142,24 +149,34 @@ I will go beyond that, and argue **"Yes we should!"**
 - Basic use of multiple software not previously used
 - Repeated use of modern software development tools: Git, Markdown, automation 
 
-# Student experiences and reproducibility services
+# Student experiences and reproducibility services {auto-animate=true transition="fade"}
+
+## Student experiences and reproducibility services  {auto-animate=true transition="none"}
 
 - **Journals** are organizationally distinct from universities (mostly)
+
+## Student experiences and reproducibility services {auto-animate=true transition="none"}
+
 - Most **curricula** currently do not include the methods and tools necessary for reproducible work 
+
+## Student experiences and reproducibility services {auto-animate=true transition="none"}
+
 - Most research institutions to not provide **reproducibility services** to their researchers
 
 ## Timing of publication
 
-- In the context of the AEA journals, students provided feedback prior to (first) publication
-- World Bank, some research institutes are providing service to their staff / members with public artifacts (early institute-level publication)[^institutes]
-- **i4R** is providing more in-depth feedback post-publication
+- In the context of the AEA journals, students provided feedback **prior** to (first) publication
+- World Bank, some research institutes are providing service to their staff / members with public artifacts (**early institute-level** publication)[^institutes]
+- **i4R** is providing more in-depth feedback **post-publication**
 
 [^institutes]: @butlerPublishingReplicationPackages2023 , @peerWhyHowWe2024 
 
+# **Yes we should**
+
 ## **Yes we should**
 
-- Include training on reproducible practices in undergraduate curricula (junior / penultimate year) [^alsomendez]
-- Training should include practice on pre-publication (own faculty) and post-publication (journal publications)
+- Include training on reproducible practices in **undergraduate curricula** (junior / penultimate year) [^alsomendez]
+- Training should include practice on **pre-publication** (own faculty) and **post-publication** (journal publications)
 - May involve structured reporting (**Social Science Reproduction Platform**)
 
 [^alsomendez]: See also @mendez-carbajoDataCitationsReproducibility2023
