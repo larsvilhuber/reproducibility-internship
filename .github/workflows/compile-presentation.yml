@@ -43,12 +43,32 @@ jobs:
         quarto render  index.qmd --output-dir _html
 
     - name: Upload Artifact
-      uses: actions/upload-pages-artifact@v3.0.1    
+      uses: actions/upload-artifact@v4    
       with:
         path: _html
-    
-  publish:
+        name: html
+
+  create-pdf:
     needs: compile-presentation
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download pages artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: html
+        path: _html
+    - name: Create PDF
+      # run docker with path _html 
+      run: |
+        docker run --rm -v "$(pwd)"/_html:/slides astefanutti/decktape index.html index.pdf
+
+    - name: Upload Artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: _html
+        
+  publish:
+    needs: compile-pdf
     
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
