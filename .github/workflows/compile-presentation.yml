@@ -63,7 +63,7 @@ jobs:
         image: astefanutti/decktape
         options: -v ${{ github.workspace }}/_html:/slides 
         run: |
-          decktape index.html index.pdf
+          /decktape/decktape.js index.html index.pdf
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
