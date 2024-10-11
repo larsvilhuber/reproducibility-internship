@@ -68,7 +68,7 @@ jobs:
         path: _html
         
   publish:
-    needs: compile-pdf
+    needs: create-pdf
     
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
