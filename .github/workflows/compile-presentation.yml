@@ -60,7 +60,7 @@ jobs:
     - name: Check permissions
       run: |
         ls -la _html
-        chmod -R a+rX _html
+        chmod -R a+rwX _html
         ls -la _html
         
     - name: Create PDF
