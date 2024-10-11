@@ -63,7 +63,7 @@ jobs:
         image: astefanutti/decktape
         options: -v ${{ github.workspace }}/_html:/slides 
         run: |
-          /decktape/decktape.js index.html index.pdf
+          node /decktape/decktape.js --chrome-path /usr/bin/chromium-browser --chrome-arg=--no-sandbox --chrome-arg=--disable-gpu index.html index.pdf
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
