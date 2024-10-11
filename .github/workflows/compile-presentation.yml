@@ -57,6 +57,12 @@ jobs:
       with:
         name: html
         path: _html
+    - name: Check permissions
+      run: |
+        ls -la _html
+        chmod -R a+rX _html
+        ls -la _html
+        
     - name: Create PDF
       uses: addnab/docker-run-action@v3
       with:
