@@ -58,11 +58,12 @@ jobs:
         name: html
         path: _html
     - name: Create PDF
-      uses: docker://astefanutti/decktape
+      uses: addnab/docker-run-action@v3
       with:
+        image: astefanutti/decktape
         options: -v ${{ github.workspace }}/_html:/slides 
-      run: |
-        decktape index.html index.pdf
+        run: |
+          decktape index.html index.pdf
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
