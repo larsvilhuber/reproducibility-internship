@@ -58,9 +58,11 @@ jobs:
         name: html
         path: _html
     - name: Create PDF
-      # run docker with path _html 
+      uses: docker://astefanutti/decktape
+      with:
+        options: -v ${{ github.workspace }}/_html:/slides 
       run: |
-        docker run --rm -v "$(pwd)"/_html:/slides astefanutti/decktape index.html index.pdf
+        decktape index.html index.pdf
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v3
