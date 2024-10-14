@@ -8,7 +8,7 @@ bibliography: ["references.bib","references-zotero.bib"]
 ---
 
 
-**Richard Ball** asked the (rhetorical) question "Is it feasible to include reproducible research methods in undergraduate training?"  [@ballYesWeCan2023], answering that question with **"Yes we can!"**. 
+**Richard Ball** asked the (rhetorical) question "Is it feasible to include reproducible research methods in **undergraduate** training?"  [@ballYesWeCan2023], answering that question with **"Yes we can!"**. 
 
 ---
 
@@ -21,11 +21,11 @@ I will go beyond that, and argue **"Yes we should!"**
 
 - As of September 2024, the LDI Replication Lab has verified **around 2500** distinct AEA journal manuscripts as to their computational reproducibility. [@10.1257/pandp.114.878]
 
-## This is being done...
+## This is being done right now ...
 
 - Since 2014 (starting before the official AEA work), **more than 200 undergraduates** have been trained, and have helped in the assessment.
 
-## ... But not in the classroom (mostly)
+## ... but not in the classroom (mostly)
 
 - The training is **not part of a regular** (Cornell) **curriculum**.
 
@@ -37,11 +37,16 @@ I will go beyond that, and argue **"Yes we should!"**
 
 ---
 
-![](images/aea-repo-example.png)
+
+![](images/aea-dcap-top.png)
 
 ---
 
-![](images/aea-dcap-top.png)
+[![](images/aea-repo-example2.png)](https://doi.org/10.3886/E204201V1)
+
+---
+
+[![](images/aea-repo-example2-readme.png)](https://www.openicpsr.org/openicpsr/project/204201/version/V1/view?path=/openicpsr/204201/fcr:versions/V1/AEA-Replication/README.pdf&type=file#)
 
 # Student involvement
 
@@ -71,7 +76,8 @@ I will go beyond that, and argue **"Yes we should!"**
 
 ![](images/replicability-agenda.png)
 
-[@vilhuberTeachingLargescaleReproducibility2022]
+[@vilhuberTeachingLargescaleReproducibility2022] & [Training manual](https://labordynamicsinstitute.github.io/ldilab-manual/)
+
 
 
 ::::
@@ -79,9 +85,16 @@ I will go beyond that, and argue **"Yes we should!"**
 
 ## What are students trained on?
 
-- Technological reasons (use of specific workflow management system, other tools)
 - Versioning: All **reproducibility checks** are versioned (git crucial)
-- Running code (R, Stata, Python, Julia, Matlab, SAS, ...)
+- **Running code** (R, Stata, Python, Julia, Matlab, SAS, ...) 
+- Running code **reproducibly** 
+
+## Data Acumen
+
+- What is **data provenance**?
+- How to **obtain data** 
+- Importance of knowing your **rights and obligations** (licenses, etc.)
+- How to convey how you obtained the data, and where
 
 ## Communication
 
@@ -92,6 +105,13 @@ I will go beyond that, and argue **"Yes we should!"**
 
 - Organizing their work within the Lab
 - Structuring reports and other documents
+
+## Technical reasons
+
+- Use of specific workflow management system
+- Use of Windows computers!
+- other tools
+
 
 # Is this useful?
 
@@ -166,18 +186,59 @@ I will go beyond that, and argue **"Yes we should!"**
 ## Timing of publication
 
 - In the context of the AEA journals, students provided feedback **prior** to (first) publication
-- World Bank, some research institutes are providing service to their staff / members with public artifacts (**early institute-level** publication)[^institutes]
-- **i4R** is providing more in-depth feedback **post-publication**
+- [World Bank](https://reproducibility.worldbank.org/), some research institutes are providing service to their staff / members with public artifacts (**early institute-level** publication)[^institutes]
+- **[i4R](https://i4replication.org/)** is providing more in-depth feedback **post-publication**
 
-[^institutes]: @butlerPublishingReplicationPackages2023 , @peerWhyHowWe2024 
+[^institutes]: @butlerPublishingReplicationPackages2023 , @peerWhyHowWe2024, @jones2024
+
+# A note on **graduate education**
+
+
+## A note on graduate education
+
+- Many graduate seminars have elements of this... yet **not nearly enough**!
+- This morning and tomorrow: at ROCKWOOL Foundation/ Humboldt Universität! (thanks to Alexandra Spitz-Oener for putting together)
+- Also Cornell ECON 7850
+
+## Ideal graduate curriculum 
+
+::: {.incremental}
+
+- [**Day 1 reproducibility**](https://larsvilhuber.github.io/day1-tutorial/)
+- Useful tools: Why you should learn (and love) the **command line**
+- Writing articles that **combine text and code** (and when not to do this)
+- **High-performance computing** and why you should care about it
+- Reproducibility, transparency, and **data ethics**: How and when to share data, and when not to
+
+:::
+
+## Ideal graduate curriculum {auto-animate=true transition="none"}
+
+::: {.incremental}
+
+- [Reproducibility when **data are confidential**](https://labordynamicsinstitute.github.io/reproducibility-confidential/)
+- Creating an **archive**, and why that's a good thing [^archive]
+- [**Verifying** reproducibility](https://larsvilhuber.github.io/self-checking-reproducibility/presentation/)
+- Writing a **grant proposal**
+- Writing a **referee report**
+
+:::
+
+[^archive]: Possibly see <https://labordynamicsinstitute.github.io/tutorial-data-sharing-archiving-2021/>
+
 
 # **Yes we should**
 
 ## **Yes we should**
 
+::: {.incremental}
+
 - Include training on reproducible practices in **undergraduate curricula** (junior / penultimate year) [^alsomendez]
+- Include training on reproducible practices in **graduate curricula** (after coursework) 
 - Training should include practice on **pre-publication** (own faculty) and **post-publication** (journal publications)
-- May involve structured reporting (**Social Science Reproduction Platform**)
+- May involve structured reporting (**[Social Science Reproduction Platform](https://www.socialsciencereproduction.org/)**)
+
+:::
 
 [^alsomendez]: See also @mendez-carbajoDataCitationsReproducibility2023
 
@@ -185,6 +246,6 @@ I will go beyond that, and argue **"Yes we should!"**
 
 ---
 
-## References
+## References 
 
 

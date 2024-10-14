@@ -46,3 +46,7 @@
   display: grid;
   grid-auto-flow: column;
 }
+
+.reveal .references {
+  font-size: 0.5em;
+}
