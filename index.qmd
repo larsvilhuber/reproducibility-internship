@@ -1,5 +1,5 @@
 ---
-title: "Reproducibility Interships: Goals and Outcomes"
+title: "Reproducibility Internships: Goals and Outcomes"
 author: 
   - "Lars Vilhuber"
 date: 7 October 2024
